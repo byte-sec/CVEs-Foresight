@@ -28,8 +28,8 @@ An AI-powered CVE dashboard that provides foresight by integrating NVD data with
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/cve-foresight.git
-cd cves-foresight
+git clone https://github.com/byte-sec/CVEs-Foresight.git
+cd CVEs-Foresight
 ```
 
 2. **Create virtual environment:**
@@ -38,12 +38,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. **Install dependencies:**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Run the application:**
+3. **Run the application:**
 ```bash
 python main.py
 ```
