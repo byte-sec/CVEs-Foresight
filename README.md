@@ -60,14 +60,14 @@ python main.py
 
 ## Configuration
 
-### Environment Variables (Recommended for Production)
+### Environment Variables
 ```bash
 export CVE_NVD_API_KEY="your-nvd-api-key"
 export CVE_GEMINI_API_KEY="your-gemini-api-key"
 ```
 
 ### Configuration File
-The application automatically creates an encrypted configuration file on first run. Manual configuration is stored in `config.json` (development) or `config.encrypted` (production).
+The application automatically creates an encrypted configuration file on first run. Manual configuration is stored in `config.json` (You can update this first hand if you want).
 
 ## Usage
 
